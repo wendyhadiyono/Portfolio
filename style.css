@@ -31,6 +31,14 @@ section::before {
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
+.home img {
+    width: 100%;
+}
+
+.home .arrow img {
+    width: 60px;
+}
+
 .home h1 {
     font-size: 72px;
 }
@@ -137,6 +145,12 @@ section::before {
     font-weight: 700;
 }
 
+@media only screen and (max-width: 768px){ 
+    .home img {
+        width: 50%;
+    }
+}
+ 
 @keyframes upDown {
     0% {
         transform: translateY(0);
